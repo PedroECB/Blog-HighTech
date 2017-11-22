@@ -1,0 +1,119 @@
+@charset:"utf-8";
+
+/* Importações de fontes */
+
+@font-face{font-family:'Archivo';src:url('../fonts/ArchivoBlack-Regular.ttf');}
+@font-face{font-family:'Roboto';src:url('../fonts/RobotoMono-Bold.ttf');}
+
+
+
+
+
+ /* Removendo as formatações padrões dos navegadores*/
+
+*{margin:0;
+  padding: 0;
+
+}
+
+                                     /*Formatações da página*/
+ 
+    /* Formatação do cabeçalho  */
+
+body{background: #dddddd;
+     font-family:"Trebuchet MS", Helvetica, sans-serif;
+     font-size: 16px;
+     padding-top: 80px;
+   
+  }
+
+
+  /* Cabeçalho */
+
+header{height: 60px;
+       background: white;
+      box-shadow: 0px 0px 3px black;
+      position: fixed;
+      width: 100%;
+      top: 0px; }
+
+  header p{position: absolute;
+           left: 400px;
+           top:15px;
+           font-family:'Archivo',sans-serif;
+           font-size: 25px;
+          }  
+
+.verde{color:#63c445;
+       }
+
+       a{color: black;
+         text-decoration: none;}
+
+    /* Menu de navegação*/
+
+
+ul{position:relative;
+   margin-left: 800px;
+   top: 12px;
+   font-weight: bolder;
+   font-size: 18px;
+   }
+ul a{color:#9a9d99;}
+
+
+
+li{display: inline-block;
+   padding: 5px;
+   margin-left: 5px;
+    }
+
+    li:visited{color:yellow;}
+
+    li:hover{background-color: #63c445;
+             border-radius:3px;
+            color: #606060;
+            }
+
+li:active{color: black;}
+
+
+
+                        /*   Menu de postagens        */
+
+
+#area-principal{
+                margin:12px auto 12px auto;
+                width: 720px;
+               }
+#postagem{background: #fff;
+          padding: 10px;
+          border-radius: 5px;
+          margin-top: 15px;}
+
+
+
+ .data-postagem{font-size: 14px;
+                border-bottom: 1px solid #dddddd; 
+                display: block;
+                padding-bottom:10px;
+                margin-bottom: 10px; }   
+
+ .titulo-postagem{color:#63c445;
+                  }                  
+
+
+ img.postagem{float:left;
+     margin:5px;
+     border-radius: 3px;} 
+
+  .autor-postagem{border-left: 10px solid silver;
+                  display: block;
+                  margin-top: 20px;
+                  padding-left: 10px;
+                  font-style: italic;
+                }                    
+
+.active{background-color: #63c445;
+             border-radius:3px;
+            color: #606060;}
